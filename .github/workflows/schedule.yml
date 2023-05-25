@@ -2,8 +2,7 @@ name: Daily Node.js Job
 
 on:
   schedule:
-# Run 22:00(JST)
-#     - cron: "0 15 * * *"
+# 5分おきに実行
     - cron: "*/5 * * * *"
 
 jobs:
