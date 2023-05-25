@@ -1,8 +1,7 @@
 const axios = require('axios');
-const FormData = require('form-data');
 
 // LINE Notifyのアクセストークン
-const accessToken = 'sE1WgkUlqMUp0SDQlihyntPLXeZ5IygaxFafNXeLhOk';
+const accessToken = 'nc3CO2phw6XdQqOrEA4lcUsjbrOTeFfq2m6N08nl7is';
 
 // ランダムな猫の画像を取得する関数
 async function getRandomCatImage() {
@@ -44,6 +43,7 @@ async function notifyRandomCatImage() {
     sendLineNotification('今日もお疲れさま。ゆっくり休んでね！', catImage);
   }
 }
+//
 
 // 関数を実行
 notifyRandomCatImage();
