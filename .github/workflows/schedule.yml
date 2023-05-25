@@ -3,7 +3,7 @@ name: Daily Node.js Job
 on:
   schedule:
 # Run 22:00(JST)
-    - cron: "0 14 * * *"
+    - cron: "0 15 * * *"
 
 jobs:
   notify_cat_image:

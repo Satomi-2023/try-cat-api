@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 // LINE Notifyのアクセストークン
-const accessToken = 'xxxx';
+const accessToken = 'nc3CO2phw6XdQqOrEA4lcUsjbrOTeFfq2m6N08nl7is';
 
 // ランダムな猫の画像を取得する関数
 async function getRandomCatImage() {
