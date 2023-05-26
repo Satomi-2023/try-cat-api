@@ -8,8 +8,9 @@
 ```
 const accessToken = 'YOUR_ACCESS_TOKEN';  // YOUR_ACCESS_TOKEN は置き換え
 ```
-1. .github/workflows 配下で GitHub Actions を定義
-1. コマンド実行
+  
+2. .github/workflows 配下で GitHub Actions を定義
+3. コマンド実行
     * npm はインストール済
 ```
 # npm 有効化
